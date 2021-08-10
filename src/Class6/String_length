@@ -1,0 +1,44 @@
+package Class6;
+
+    public class String_length {
+
+        public static void main(String[] args) {
+
+            /**
+             * String have length
+             * Length with Index number
+             // String cityName = "neW yOrK";
+             *
+             * To find the length of a given String
+             * Method: length()
+             *
+             * n e W   y O r K
+             * 0 1 2 3 4 5 6 7
+             *
+             * startIndex = 0
+             * lastIndex = 7
+             * length = 8
+             * Index is ALWAYS int
+             * last Index = length -1
+             */
+            String cityName = "neW yOrK";
+            int cityNameLength = cityName.length();
+            System.out.println("\nLength of '" + cityName + "' is : " + cityNameLength); // Length of 'neW yOrK' is : 8
+
+            /**
+             *
+             * To convert the String into all lowercase
+             *  Method: toLowercase()
+             *
+             * This method is NOT going to change the original value
+             * It will convert the value in lowercase, and return the result to user
+             * */
+            // String cityName = "neW yOrK";
+            String cityNameInLowercase = cityName.toLowerCase();
+            //   converting the value in cityName to lowercase
+            //   and, storing the all-lowercase value in NEW variable (cityNameInLowercase)
+
+            System.out.println("\nCity name in lowercase : " + cityNameInLowercase); // City name in lowercase : new york
+            System.out.println("City name : " + cityName); // City name : neW yOrK (original value)
+        }
+}
